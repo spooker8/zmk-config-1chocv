@@ -53,8 +53,8 @@
 		base {
 			bindings = <
 &kp ESC         &none           &none           &tog MEDIA      &tog NAV        &tog MOUSE                              &tog SYM        &tog NUM        &tog FUN        &tog NAV_R      &tog VANILLA   &kp HOME
-&none           &kp Q           &kp W           &kp E           &kp R           &kp T                                   &kp Y           &kp U           &kp I           &kp O           &kp P          &kp PG_UP
-&none           &hm LGUI A      &hm LALT S      &hm LCTRL D     &hm LSHFT F     &kp G                                   &kp H           &hm RSHIFT J    &hm LCTRL K     &hm LALT L      &hm LGUI SQT   &kp PG_DN
+&none           &kp Q           &kp W           &kp E           &kp R           &kp T                                   &kp Y           &kp U           &kp I           &kp O           &kp SQT        &kp PG_UP
+&none           &hm LGUI A      &hm LALT S      &hm LCTRL D     &hm LSHFT F     &kp G                                   &kp H           &hm RSHIFT J    &hm LCTRL K     &hm LALT L      &hm LGUI P     &kp PG_DN
 &kp LGUI        &kp Z           &kp X           &kp C           &kp V           &kp B  &lt ADJUST LPAR  &lt ADJUST RPAR &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH       &kp END
                                 &none           &lt FUN ESC     &lt NUM SPACE   &lt SYM TAB                             &lt MOUSE RET   &lt NAV BSPC    &lt MEDIA DEL   &none
 			>;
