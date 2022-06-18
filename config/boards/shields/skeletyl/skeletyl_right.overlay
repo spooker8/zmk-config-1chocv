@@ -9,7 +9,7 @@
 &kscan0 {
     row-gpios
         = <&pro_micro 10 (GPIO_ACTIVE_HIGH)> // row0 C3 009 D10
-        , <&pro_micro 21 (GPIO_ACTIVE_HIGH)> // row1 R1 031 D21
+        , <&pro_micro 18 (GPIO_ACTIVE_HIGH)> // row1 R2 115 D18
         , <&pro_micro 20 (GPIO_ACTIVE_HIGH)> // row2 C2 029 D20
         , <&pro_micro 19 (GPIO_ACTIVE_HIGH)> // row3 C1 002 D19
         ; 
