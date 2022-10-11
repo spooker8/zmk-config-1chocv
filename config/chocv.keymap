@@ -54,16 +54,16 @@
 
 		base {
 			bindings = <
-AS(Q)           &kp W           &kp E           &kp R           &kp T                                   &kp Y           &kp U           &kp I           &kp O           &kp SQT          
-&kp LGUI        &kp S      	&kp D     	&kp F 	    	&kp G                                   &kp H           &kp J	    	&kp K     	&kp L      	&kp P   
-&kp Z           &kp X           &kp C           &kp V           &kp B                                   &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH       
-                                &lt FUN ESC     &lt NUM SPACE   &lt SYM TAB                             &lt MOUSE RET   &lt NAV BSPC    &lt MEDIA DEL   
+AS(Q)           AS(W)          	AS(E)         	AS(R)          	&AS(T)                                  AS(Y)          	AS(U)         	AS(I)          	AS(O)           AS(p)          
+AS(A)       	AS(S)      	AS(D)     	AS(F) 	    	AS(G)                                  	AS(H)          	AS(J)	    	AS(K)     	AS(L)      	&lt SEMI SQT  
+&kp LCTRL       AS(Z)           AS(X)           AS(C)           AS(V)                                   AS(B)           AS(N)           AS(M)           AS(COMMA)       &lt DOT FSLH       
+                                &lt LGUI ESC    &kp NAV   	&lt LSHFT SPACE		                &lt MOUSE SPACE &kp RET    	&kp DEL   
 			>;
 		};
 
 		nav {
 			bindings = <
-&kp PG_UP       &kp HOME        &kp UP          &kp END         &kp INS                                 &none           &none           &none           &none           &none          
+AS(1)       	AS(2)        	AS(3)           AS(4)         	AS(5)                                 	AS(6)           AS(7)           AS(8)           AS(9)           AS(0)          
 &kp PG_DN       &kp LEFT        &kp DOWN        &kp RIGHT       &kp CAPS                                &none           &kp RSHFT       &kp LCTRL       &kp LALT        &kp LGUI       
 &kp LC(Z)       &kp LC(X)       &kp LC(C)       &kp LC(V)       &kp LC(Y)                               &none           &none           &none           &none           &none          
                                 &trans          &trans          &trans                                  &trans          &trans          &trans          
@@ -79,14 +79,6 @@ AS(Q)           &kp W           &kp E           &kp R           &kp T           
 			>;
 		};
 
-		media {
-			bindings = <
-&none           &none           &kp C_VOL_UP    &none           &none                                   &none           &none           &none           &none           &none          
-&none           &kp C_PREV      &kp C_VOL_DN    &kp C_NEXT      &none                                   &none           &kp RSHFT       &kp LCTRL       &kp LALT        &kp LGUI       
-&none           &none           &none           &none           &none                                   &none           &none           &none           &none           &none          
-                                &kp C_MUTE      &kp C_PP        &kp C_STOP                              &trans          &trans          &trans          
-			>;
-		};
 		
 	};
 };
