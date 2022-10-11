@@ -38,7 +38,7 @@
     acceleration-exponent=<1>;
 };
 
-#define &kp keycode) &as LS(keycode) keycode     // Autoshift Macro
+#define AT(keycode) &as LS(keycode) keycode     // Autoshift Macro
 
 / {
     behaviors {
