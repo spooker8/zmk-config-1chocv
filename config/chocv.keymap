@@ -38,8 +38,6 @@
     acceleration-exponent=<1>;
 };
 
-#define AT(keycode) &as LS(keycode) keycode     // Autoshift Macro
-
 / {
     behaviors {
         as: auto_shift {
@@ -61,13 +59,13 @@
 &kp Q          	&kp W          	&kp E         	&kp R          	&kp T                                  	&kp Y          	&kp U         	&kp I          	&kp O           &kp P          
 &kp A       	&kp S      	&kp D     	&kp F 	    	&kp G                                  	&kp H          	&kp J	    	&kp K     	&kp L      	&mt SEMI SQT  
 &kp LCTRL       &kp Z           &kp X           &kp C           &kp V                                   &kp B           &kp N           &kp M           &kp COMMA       &mt DOT FSLH       
-                                &lt LGUI ESC    &mo NAV   	&lt LSHFT SPACE		                &lt MOUSE SPACE &kp RET    	&kp BSPC   
+                                &lt LGUI ESC    &mo NAV   	&lt LSHFT SPACE		                &lt MOUSE SPACE &kp RET    	&lt MOUSE BSPC   
 			>;
 		};
 
 		nav {
 			bindings = <
-&mt ESC N1      &mt AT N2       &mt HASH N3     &mt DLLR N4     &mt PRCNT N5                            &mt CARET N6    &mt AMPS N7     &mt STAR N8     &mt LPAR N9     &mt RPAR N0          
+&kp N1      	&kp N2       	&kp N3     	&kp N4     	&kp N5                           	&kp N6    	&kp N7     	&kp N8     	&kp N9     	&kp N0          
 &kp TAB       	&none        	&kp UP          &kp LBKT        &kp RBKT        	                &none           &none	        &kp LBKT       	&kp RBKT        &kp BSPC       
 &kp LSHFT       &kp LEFT       	&kp DOWN       	&kp RIGHT      	&kp CAPS                                &none           &none           &none           &none           &none          
                                 &trans          &trans          &trans                                  &trans          &trans          &trans          
@@ -77,7 +75,7 @@
 		mouse {
 			bindings = <
 &mt ESC EXCL    &kp AT          &kp HASH        &kp DLLR        &kp PRCNT                               &kp CARET       &kp AMPS        &kp STAR        &kp LPAR        &kp RPAR          
-&kp LSHFT       &none           &none           &none           &none                                   &kp MINUS       &kp LBKT        &kp RBKT        &kp BSLH        &kp BSPC       
+&kp LSHFT       &none           &bt BT_PRV      &bt BT_NXT      &bt BT_CLR                              &kp MINUS       &kp LBKT        &kp RBKT        &kp BSLH        &kp BSPC       
 &kp LCTRL       &none           &none       	&none       	&none                               	&kp EQUAL       &none           &none           &none           &kp GRAVE          
                                 &trans          &trans          &trans                                  &trans          &trans          &trans          
 			>;
