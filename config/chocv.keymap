@@ -54,7 +54,7 @@
 
 		base {
 			bindings = <
-AS(Q)           AS(W)          	AS(E)         	AS(R)          	AS(T)                                  	AS(Y)          	AS(U)         	AS(I)          	AS(O)           AS(p)          
+AS(Q)           AS(W)          	AS(E)         	AS(R)          	AS(T)                                  	AS(Y)          	AS(U)         	AS(I)          	AS(O)           AS(P)          
 AS(A)       	AS(S)      	AS(D)     	AS(F) 	    	AS(G)                                  	AS(H)          	AS(J)	    	AS(K)     	AS(L)      	&lt SEMI SQT  
 &kp LCTRL       AS(Z)           AS(X)           AS(C)           AS(V)                                   AS(B)           AS(N)           AS(M)           AS(COMMA)       &lt DOT FSLH       
                                 &lt LGUI ESC    &kp NAV   	&lt LSHFT SPACE		                &lt MOUSE SPACE &kp RET    	&kp DEL   
