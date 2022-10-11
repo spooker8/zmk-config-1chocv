@@ -1,7 +1,7 @@
 if SHIELD_CHOCV
 
 config ZMK_KEYBOARD_NAME
-    default "hieutt-chocv"
+    default "buddy's-board"
 
 config ZMK_MOUSE
     default y
