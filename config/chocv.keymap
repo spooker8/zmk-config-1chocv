@@ -67,8 +67,8 @@ AS(A)       	AS(S)      	AS(D)     	AS(F) 	    	AS(G)                           
 
 		nav {
 			bindings = <
-AS(N1)       	AS(N2)        	AS(N3)          AS(N4)         	AS(N5)                                 	AS(N6)          AS(N7)          AS(N8)          AS(N9)          AS(N0)          
-&kp TAB       	&none        	&kp UP          AS(LBKT)        AS(RBKT)        	                &none           &none	        AS(LBKT)       	AS(RBKT)        &kp BSPC       
+&mt ESC N1      &mt AT N2       &mt HASH N3     &mt DLLR N4     &mt PRCNT N5                            &mt CARET N6    &mt AMPS N7     &mt STAR N8     &mt LPAR N9     &mt RPAR N0          
+&kp TAB       	&none        	&kp UP          &kp LBKT        &kp RBKT        	                &none           &none	        &kp LBKT       	&kp RBKT        &kp BSPC       
 &kp LSHFT       &kp LEFT       	&kp DOWN       	&kp RIGHT      	&kp CAPS                                &none           &none           &none           &none           &none          
                                 &trans          &trans          &trans                                  &trans          &trans          &trans          
 			>;
