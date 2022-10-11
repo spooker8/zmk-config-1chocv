@@ -14,13 +14,7 @@
 #define BASE    0
 #define NAV     1
 #define MOUSE   2
-#define MEDIA   3
-#define NUM     4
-#define SYM     5
-#define FUN     6
-#define VANILLA 7
-#define ADJUST  8
-#define NAV_R   9
+
 
 &lt {
     quick_tap_ms = <200>;
@@ -38,25 +32,13 @@
     acceleration-exponent=<1>;
 };
 
-/ {
-    behaviors {
-        as: auto_shift {
-            compatible = "zmk,behavior-hold-tap";
-            label = "AUTO_SHIFT";
-            #binding-cells = <2>;
-            tapping_term_ms = <300>;
-            quick_tap_ms = <0>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
-        };
-    };
 
 	keymap {
 		compatible = "zmk,keymap";
 
 		base {
 			bindings = <
-&kp Q          	&kp W          	&kp E         	&kp R          	&kp T                                  	&kp Y          	&kp U         	&kp I          	&kp O           &mt BSPC P          
+&kp Q          	&kp W          	&kp E         	&kp R          	&kp T                                  	&kp Y          	&kp U         	&kp I          	&kp O           &kp P          
 &kp A       	&kp S      	&kp D     	&kp F 	    	&kp G                                  	&kp H          	&kp J	    	&kp K     	&kp L      	&mt SEMI SQT  
 &kp Z           &kp X           &kp C           &kp V           &kp MINUS                        	&kp B           &kp N           &kp M           &kp COMMA       &mt FSLH DOT       
                                 &mt LGUI ESC    &mo NAV   	&mt LSHFT SPACE		                &mt MOUSE SPACE &mt LCTRL RET   &mt MOUSE BSPC   
