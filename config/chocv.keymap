@@ -17,7 +17,7 @@
 
 
 &lt {
-    quick_tap_ms = <200>;
+    quick_tap_ms = <250>;
 };
 
 &mt {
@@ -41,7 +41,7 @@
 &kp Q          	&kp W          	&kp E         	&kp R          	&kp T                                  	&kp Y          	&kp U         	&kp I          	&kp O           &kp P          
 &kp A       	&kp S      	&kp D     	&kp F 	    	&kp G                                  	&kp H          	&kp J	    	&kp K     	&kp L      	&mt SEMI SQT  
 &kp Z           &kp X           &kp C           &kp V           &kp MINUS                        	&kp B           &kp N           &kp M           &kp COMMA       &mt FSLH DOT       
-                                &mt LGUI ESC    &mo NAV   	&mt LSHFT SPACE		                &mt MOUSE SPACE &mt LCTRL RET   &mt MOUSE BSPC   
+                                &mt LGUI ESC    &mo NAV   	&mt LSHFT SPACE		                &lt MOUSE SPACE &mt LCTRL RET   &lt MOUSE BSPC   
 			>;
 		};
 
@@ -49,7 +49,7 @@
 			bindings = <
 &kp N1      	&kp N2       	&kp N3     	&kp N4     	&kp N5                           	&kp N6    	&kp N7     	&kp N8     	&kp N9     	&kp N0          
 &kp TAB       	&none        	&kp UP          &kp LBKT        &kp RBKT        	                &none           &none	        &kp LBKT       	&kp RBKT        &kp BSPC       
-&kp LSHFT       &kp LEFT       	&kp DOWN       	&kp RIGHT      	&kp CAPS                                &none           &none           &none           &none           &none          
+&kp LSHFT       &kp LEFT       	&kp DOWN       	&kp RIGHT      	&kp CAPS                                &none           &kp LEFT        &kp UP          &kp DOWN        &kp RIGHT          
                                 &trans          &trans          &trans                                  &trans          &trans          &trans          
 			>;
 		};
