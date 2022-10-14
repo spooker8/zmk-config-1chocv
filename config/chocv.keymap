@@ -68,10 +68,10 @@
 
 		mouse {
 			bindings = <
-&mt ESC EXCL    &kp AT          &kp HASH        &kp DLLR        &kp PRCNT                               &kp CARET       &kp AMPS        &kp STAR        &kp LPAR        &kp RPAR          
-&kp LSHFT       &none           &bt BT_PRV      &bt BT_NXT      &bt BT_CLR                              &kp MINUS	&kp EQUAL       &kp LBKT        &kp RBKT        &kp BSLH               
-&kp LCTRL       &none           &none       	&none       	&ext_power EP_TOG                       &none           &none           &none           &none           &kp GRAVE          
-                                &trans          &trans          &trans                                  &trans          &trans          &trans          
+&mt ESC EXCL    &kp AT          &kp HASH        &kp DLLR           &kp PRCNT                               &kp CARET       &kp AMPS        &kp STAR        &kp LPAR        &kp RPAR          
+&kp LSHFT       &none           &bt BT_PRV      &bt BT_NXT         &bt BT_CLR                              &kp MINUS	&kp EQUAL       &kp LBKT        &kp RBKT        &kp BSLH               
+&kp LCTRL       &none           &none       	&ext_power EP_TOG  &ext_power EP_ON                       &none           &none           &none           &none           &kp GRAVE          
+                                &trans          &trans             &trans                                  &trans          &trans          &trans          
 			>;
 		};
 
