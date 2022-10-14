@@ -60,8 +60,8 @@
 		nav {
 			bindings = <
 &kp N1      	&kp N2       	&kp N3     	&kp N4     	&kp N5                           	&kp N6    	&kp N7     	&kp N8     	&kp N9     	&kp N0          
-&kp TAB       	&none        	&kp UP          &kp LBKT        &kp RBKT        	                &none           &none	        &kp LBKT       	&kp RBKT        &kp BSPC       
-&kp LSHFT       &kp LEFT       	&kp DOWN       	&kp RIGHT      	&kp CAPS                                &none           &kp LEFT        &kp UP          &kp DOWN        &kp RIGHT          
+&kp TAB       	&none        	&kp UP          &kp LBKT        &kp RBKT        	                &none           &none	        &kp UP          &kp LBKT       	&kp RBKT               
+&kp LSHFT       &kp LEFT       	&kp DOWN       	&kp RIGHT      	&kp CAPS                                &none           &kp LEFT        &kp DOWN        &kp RIGHT       &none   
                                 &trans          &trans          &trans                                  &trans          &trans          &trans          
 			>;
 		};
@@ -69,8 +69,8 @@
 		mouse {
 			bindings = <
 &mt ESC EXCL    &kp AT          &kp HASH        &kp DLLR        &kp PRCNT                               &kp CARET       &kp AMPS        &kp STAR        &kp LPAR        &kp RPAR          
-&kp LSHFT       &none           &bt BT_PRV      &bt BT_NXT      &bt BT_CLR                              &kp MINUS       &kp LBKT        &kp RBKT        &kp BSLH        &kp BSPC       
-&kp LCTRL       &none           &none       	&none       	&none                               	&kp EQUAL       &none           &none           &none           &kp GRAVE          
+&kp LSHFT       &none           &bt BT_PRV      &bt BT_NXT      &bt BT_CLR                              &kp EQUAL       &kp MINUS       &kp LBKT        &kp RBKT        &kp BSLH               
+&kp LCTRL       &none           &none       	&none       	&none                               	&none           &none           &none           &none           &kp GRAVE          
                                 &trans          &trans          &trans                                  &trans          &trans          &trans          
 			>;
 		};
