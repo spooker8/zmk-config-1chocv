@@ -50,10 +50,10 @@
 
 		base {
 			bindings = <
-&kp Q          	&kp W          	&kp E         	&mt R R       	&kp T                                  	&kp Y          	&kp U         	&kp I          	&kp O           &kp P          
+&kp Q          	&kp W          	&kp E         	&kp R       	&kp T                                  	&kp Y          	&kp U         	&kp I          	&kp O           &kp P          
 &kp A       	&kp S      	&kp D     	&kp F 	    	&kp G                                  	&kp H          	&kp J	    	&kp K     	&kp L      	&mt SEMI SQT  
 &kp Z           &kp X           &kp C           &kp V           &kp MINUS                        	&kp B           &kp N           &kp M           &kp COMMA       &mt FSLH DOT       
-                                &mt LGUI ESC    &mo NAV   	&mt LSHFT SPACE		                &mt MOUSE SPACE &mt LCTRL RET   &mt MOUSE BSPC   
+                                &mt LGUI ESC    &mo NAV   	&mt LSHFT SPACE		                &lt MOUSE SPACE &mt LCTRL RET   &lt MOUSE BSPC   
 			>;
 		};
 
