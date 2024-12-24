@@ -22,8 +22,7 @@ jobs:
         name: Fetch Build Matrix
         run: |
           matrix=$(yaml2json build.yaml | jq -c .)
-          yaml2json build.yaml
-          echo "matrix=${matrix}" >> $GITHUB_ENV
+          echo "::set-output name=matrix::${matrix}"
         shell: bash
 
   build:
@@ -34,7 +33,7 @@ jobs:
     name: Build
     strategy:
       fail-fast: false
-      matrix: ${{ fromJson(env.matrix) }}
+      matrix: ${{ fromJson(needs.matrix.outputs.matrix) }}
     steps:
       - name: Prepare variables
         id: variables
