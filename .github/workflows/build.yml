@@ -22,9 +22,13 @@ jobs:
         name: Fetch Build Matrix
         run: |
           matrix=$(yaml2json build.yaml | jq -c .)
-          echo "matrix=${matrix}" >> $GITHUB_ENV
-        env:
-          matrix: ${{ steps.set-matrix.outputs.matrix }}
+          if [ -z "$matrix" ]; then
+            echo "Error: Matrix is empty. Ensure build.yaml is correctly formatted." >&2
+            exit 1
+          fi
+          echo "matrix=$matrix" >> $GITHUB_ENV
+          echo "::set-output name=matrix::$matrix"
+        shell: bash
 
   build:
     runs-on: ubuntu-22.04
