@@ -22,7 +22,7 @@ jobs:
         name: Fetch Build Matrix
         run: |
           matrix=$(yaml2json build.yaml | jq -c .)
-          echo "::set-output name=matrix::${matrix}"
+          echo "matrix=${matrix}" >> $GITHUB_ENV
         shell: bash
 
   build:
@@ -103,7 +103,7 @@ jobs:
           fi
 
       - name: Archive (${{ env.DISPLAY_NAME }})
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: firmware
           path: build/artifacts
